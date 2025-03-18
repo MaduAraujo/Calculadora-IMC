@@ -105,27 +105,34 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     backgroundColor: '#ecf0f1',
-    padding: 8,
+    padding: 0,
   },
+  
   background: {
     flex: 1,
+    width: '100%', // Garante que a imagem cubra toda a largura
+    height: '102%', // Garante que a imagem cubra toda a altura
   },
+  
   containerTituloBold: {
     flexDirection: 'column',
     alignItems: 'flex-start',
   },
+  
   containerTituloNormal: {
     flexDirection: 'column',
     alignItems: 'flex-end',
   },
+  
   tituloBold: {
     fontSize: 32,
     width: 200,
     height: 140,
     color: '#ffffff',
-    marginTop: 40,
+    marginTop: 70,
     marginLeft: 25,
   },
+  
   tituloNormal: {
     marginRight: 20,
     fontSize: 20,
@@ -134,6 +141,7 @@ const styles = StyleSheet.create({
     color: '#ffffff',
     textAlign: 'right',
   },
+  
   input: {
     backgroundColor: '#494358',
     borderRadius: 25,
@@ -145,11 +153,13 @@ const styles = StyleSheet.create({
     fontSize: 13,
     placeholderTextColor: '#ffffff',
   },
+  
   containerPesoAltura: {
     flexDirection: 'row',
     height: 90,
     justifyContent: 'center',
   },
+  
   containerNomeEmail: {},
   containerCalcular: {
     backgroundColor: '#262135',
@@ -161,11 +171,13 @@ const styles = StyleSheet.create({
     marginLeft: 40,
     marginTop: 40,
   },
+  
   txtCalcular: {
     color: '#ffffff',
     fontSize: 24,
     fontWeight: 'semibold',
   },
+  
   containerVerifique: {
     backgroundColor: 'rgba(0, 0, 0, 0.60)',
     borderRadius: 34.5,
@@ -173,6 +185,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 20,
     height: 185,
   },
+  
   txtVerifique: {
     color: '#ffffff',
     fontSize: 18,
